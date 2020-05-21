@@ -1,0 +1,1707 @@
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+  color: white;
+  margin-top: -21px;
+  padding: 10px;
+  font-size: 8px;
+}
+
+
+.App-header {
+  font-size: 20px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: -1000;
+}
+.App-logo{
+  width: 120px;
+  margin-bottom: -13%;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.btnlogout{
+  text-align: initial;
+  font-size: 15px;
+  position: absolute;
+  top: 35px;
+  left: 88%;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+/* Menu Navigation ------------------------------------------------------------------------------------ */
+.Navmenu{
+  width: 100%;
+  background: transparent;
+  margin: 0 auto;
+  margin-top: 350px;
+  font-size: 20px;
+  z-index: 100;
+  display: block;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: -30px;
+
+}
+.Navmenu > ul{
+  list-style: none;
+  position: relative;
+  top: -65px;
+  widows: 100%;
+  height: 80px;
+}
+.Navmenu > ul > li{
+  display: block;
+  color: #7f32ee;
+  display: inline;
+  flex-direction: row;
+  margin: 5px;
+  cursor: pointer;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+}
+.Navlogo{
+  margin-top: -250px;
+  align-items: center;
+  justify-items: center;
+}
+.titleTxt{
+  font-size: 25px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.subTitleTxt{
+  font-size: 35px;
+  margin-top: -300px;
+}
+.logo{
+  width: 100px;
+  margin-top: 5px;
+  position: relative;
+  left: 15px;
+}
+.logoHome{
+  width: 150px;
+  margin-top: -400px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.btnHome{
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.4s;
+  width: 180px;
+  height: 110px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  padding-top: 20px;
+  margin-right: -10px;
+}
+.btnHome1{
+  border-radius: 10px 0px 0px 10px;
+  border-right: 1px dashed silver;
+}
+.btnHome2{
+  border-radius: 0px 0px 0px 0px;
+  border-right: 1px dashed silver;
+}
+.btnHome3{
+  border-radius: 0px 10px 10px 0px;
+}
+.btnHome:hover{
+  background-color: rgb(235, 235, 235);
+  color: #7f32ee;
+}
+.btnLogin:hover{
+  background: #3b378a;
+}
+.btnCadastro:hover{
+  background: #3b378a;
+  border: none;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+
+/* Home Page -----------------------------------------------------------------------------------*/
+
+
+
+/* Hero --------------------------------------------------------------------------------------- */
+
+.hero{
+  width: 100%;
+  text-align: right;
+}
+.backgroundHero{
+  width: 103%;
+  margin: 0 auto;
+  margin-top: -200px;
+  margin-left: -20px;
+  background-size: cover;
+  height: 600px;
+  padding-top: 120px;
+  border: none;
+}
+.heroPg{
+  filter: none;
+  margin-bottom: -440px;
+  height: 600px;
+  padding-top: 0px;
+}
+.heroLogin{
+  height: 1300px;
+}
+.titleHero{
+  margin-top: -414px;
+  font-size: 70px;
+}
+.subtilteHero{
+  font-size: 25px;
+  margin-top: -60px;
+}
+.detalsHero{
+  font-size: 18px;
+  margin-top: -20px;
+  color: silver;
+}
+.btnHero{
+  color: #35a4ff;
+  margin-right: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btnHero:hover{
+  text-decoration: underline;
+}
+
+
+/* Seçoes -------------------------------------------------------------------------------------------------- */
+.section{
+  margin-top: 65px;
+  flex: 1;
+  list-style-type: disc;
+}
+.section > h1{
+  cursor: pointer
+}
+.section2{
+  margin-top: 100px;
+}
+.section2 > h1{
+  cursor: pointer;
+  list-style-type: disc;
+}
+.sectionColor{
+  background-color: #7f32ee;
+  margin-left: -20px;
+  flex: 1;
+  width: 105%;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sectionColor > h1{
+  margin-top: 30px;
+  color: white;
+  list-style-type: disc;
+}
+.titleSection{
+  width: 40%;
+  font-size: 35px;
+  color: #7f32ee;
+  margin-top: -50px;
+}
+.titleSection > img {
+  margin-right: 15px;
+  margin-bottom: -10px;
+}
+
+.txtSection{
+  width: 40%;
+  font-size: 40px;
+  margin-right: 120px;
+  margin-top: 200px;
+  text-align: initial;
+}
+.imgSection{
+  width: 40%;
+  margin-top: 138px;
+  animation: animateImg 2s linear infinite;
+}
+@keyframes animateImg {
+  0%{transform: scale(1)}
+  50%{transform: scale(1.02)}
+  100%{transform: scale(1)}
+}
+.txtSection > p{
+  margin-top: -40px;
+  font-size: 20px;
+}
+.txtRight{
+  float: right;
+}
+.txtLeft{
+  float: left;
+  text-align: end;
+  margin-left: 80px;
+}
+
+.txtSchool{
+  margin-top: 100px;
+}
+.imgSchool{
+  margin-top: 20px;
+}
+
+.section3{
+  margin-left: 50px;
+  margin-top: -40px;
+  width: 80%;
+  height: 450px;
+  border: 2px dashed white;
+  border-radius: 20px;
+}
+.txt3{
+  margin-top: 104px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Icone da Página e Usuário -------------------------------------------------------------------------------*/
+#iconeUser{
+  padding: 0;
+}
+.iconePage{
+  position: absolute;
+  flex-direction: row !important;
+  margin-top: 30px;
+  margin-bottom: 0;
+  flex: 1;
+  align-items: center;
+  margin-left: 60px;
+}
+.iconePageHome{
+  position: absolute;
+  flex-direction: row !important;
+  margin-top: 30px;
+  margin-bottom: 0;
+  flex: 1;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 80px;
+}
+.imgIconePageProf{
+  width: 60px;
+  height: 60px;
+  float: left;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  background-color: #6508bb;
+}
+.imgIconePage{
+  width: 60px;
+  height: 60px;
+  float: left;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.nameIconePageHome{
+  margin: 0 auto;
+  text-align: center;
+}
+.nameIconePage{
+  color: #7f32ee;
+  margin-left: 172px;
+  text-align: left;
+}
+.userName{
+  width: 234.783px;
+}
+.typeName{
+  margin-left: -35px;
+  margin-top: -10px;
+}
+
+.headerItens{
+  flex-direction: column;
+  padding-top: 250px;
+  margin-top: 50px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Botões Tela Principal ------------------------------------------------------------------------------- */
+.listAreas{
+  flex-direction: row;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.listAreas2{
+  flex-direction: row;
+  display: inline-block;
+  width: 90%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Areas{
+  margin: 10px;
+  background-color: #7f32ee;
+  color: white;
+  font-size: 8px !important;
+  width: 190px;
+  height: 150px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-direction: row;
+  border-radius: 20px;
+  /* border: 10px solid white; */
+  transition: 0.5s;
+  cursor: pointer;
+  list-style: none;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+.Areas:hover{
+  /* background-color: #8b13df; */
+  transform: scale(1.07);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+
+.Areas > img {
+  /* filter: brightness(60%); */
+  width: 100%;
+  height: 65%;
+  border-radius: 20px 20px 1px 1px;
+  opacity: 1;
+  z-index: -1;
+  background-size: 100%;
+  box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+  /* margin-top: 5px */
+}
+.Areas > p{
+  margin-top: 10px;
+  opacity: 1;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Areas > a{
+  color: #35a4ff;
+}
+
+@keyframes img-spin {
+  0% { transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+
+.icon{
+  height: 30%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  align-items: flex-start;
+}
+.iconLab{
+  height: 70%;
+  margin-bottom: -15px;
+}
+.logoLab{
+  height: 18px;
+}
+.Areas > h1 {
+  margin-top:10px;
+}
+
+.AreasSerie{
+  height: 100px;
+  align-items: center;
+  background-color: #5d009b;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Types Areas -------------------------------------------------------------------------------*/
+.type1{
+  width: 110px;
+  height: 160px;
+  font-size: 10px !important;
+  color: rgb(136, 136, 136);
+  background-color: rgba(231, 231, 231, 0.3);
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.txtCard{
+  display: none;
+  text-align: center;
+}
+
+
+.type2{
+  width: 15%;
+  height: 230px;
+  font-size: 15px !important;
+  justify-items: center;
+  background-color: #023b743a;
+  color: #fff;
+  border-radius: 0px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.type2:hover{
+  transform: scale(1.017);
+}
+.type2 > img{
+  width: 100%;
+  height: 83%;
+  border-radius: 0px;
+}
+.type3{
+  width: 240px;
+  height: 100px;
+  font-size: 25px !important;
+  color:white;
+  font-weight: bold;
+  display: inline-block;
+}
+.type > h1{
+  margin: 15px !important;
+}
+.type3 > p{
+  margin-top: -5px;
+  font-size: 15px !important;
+  color: #7f32ee;
+}
+.type4{
+  width: 150px;
+  height: 60px;
+  font-size: 10px !important;
+  color: white;
+  margin-bottom: 100px;
+  border-radius: 0px;
+  margin-left: -10px;
+  box-shadow: none;
+}
+.type4:hover{
+  transform: scale(1);
+  background-color: white;
+  color: #7f32ee !important;
+}
+.type4 > p{
+  margin-top: 20px;
+  font-size: 15px !important;
+  font-weight: none !important;
+}
+.type4-1{
+  border-radius: 5px 0px 0px 5px;
+}
+.type4-2{
+  border-radius: 0px 5px 5px 0px;
+}
+.type5{
+  width: 1060px;
+  height: 350px;
+  font-size: 20px !important;
+  color: #7f32ee;
+  margin-top: -80px;
+}
+.type5>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.type6{
+  width: 250px;
+  height: 200px;
+  font-size: 15px !important;
+  justify-items: center;
+  color: rgb(136, 136, 136);
+  background-color: rgba(231, 231, 231, 0.3);
+}
+.type6 > img{
+  height: 80%;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Itens -------------------------------------------------------------------------------*/
+.item-header {
+  margin-top: 310px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  min-height: 600px;
+  display: block;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  justify-content: center;
+  color: white;
+  z-index: -1000;
+}
+.item-header-dashboard{
+  margin-top: 310px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  min-height: 600px;
+  display: block;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  justify-content: center;
+  color: white;
+  z-index: -1000;
+}
+.item-header-content{
+  margin-top: 310px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  min-height: 300px;
+  display: block;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  justify-content: center;
+  color: white;
+  z-index: -1000;
+}
+.btnFinanceiro{
+  display: block;
+  padding-bottom: 20px;
+}
+.btnFinanceiroIn{
+  background-color: #7f32ee !important;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.boxFluxoCaixa{
+  margin-top: 50px;
+}
+
+.btnFinanceiroIn:hover{
+  background-color: #fff !important;
+}
+.fluxoCaixaUL{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.fluxCaixaLI{
+  background-color: rgb(211, 211, 211);
+  color: rgb(114, 114, 114);
+  list-style: none;
+  margin-top: 10px;
+  display: inline-flex;
+  width: 90%;
+  border-radius: 10px;
+}
+.fluxCaixaLI > p{
+  margin: 10px;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 25%;
+  text-align: left;
+}
+
+.Item{
+  width: 60%;
+  height: 150px;
+  margin: 10px;
+  background-color: #ff5257;
+  color: white;
+  font-size: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 1px dashed white;
+  padding-top: 30px;
+  transition: 0.5s;
+  font-size: 50%;
+  cursor: pointer;
+}
+
+.Item:hover{
+  background-color: #c2151a;
+}
+.Item:hover > .Item-img{
+  transform: scale(1.1)
+}
+
+.Item-img{
+  width: 30%;
+  height: 150px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  contain: content;
+  transition: 1s;
+}
+.Item-txt{
+  width: 70%;
+  height: 100px;
+  text-align: justify;
+  margin-top: 5px;
+  float: left;
+}
+.txt-detals{
+  margin-top: -10px;
+}
+.imgItem{
+  border-radius: 10px;
+  background-size: 100%;
+  border: 2px dashed white;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.btn-detals{
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+  width: 70px;
+  background-color: #ff5257;
+  color: white; 
+  border-radius: 10px;
+  border: 1px dashed white;
+  padding: 10px;
+  transition: 0.5s;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn-detals:hover{
+  background-color: #c2151a;
+  transform: scale(1.07);
+  animation: none;
+}
+
+.download{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: silver;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: flex-end;
+  display: none;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+
+/* Gráficos  -------------------------------------------------------------------------------*/
+.Grafich{
+  margin-top: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: flex-end;
+  display: inline-flex;
+}
+.barrasSection{
+  margin: 20px;
+  width: 14.28%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+.barra{
+  width: 50px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Caixa de list-itens -------------------------------------------------------------------------------*/
+.box-list{
+  margin-top: 230px;
+  margin-bottom: 50px;
+  width: 100%;
+  flex: 1;
+  /* background-color: #9569D5; */
+  align-items: center;
+  border-radius: 40px;
+}
+.search{
+  display: block;
+  width: 100%;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  border-radius: 40px;
+  align-items: center;
+}
+.filterSearch{
+  margin-bottom: -10px;
+}
+.searchBox{
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 65%;
+  height: 130px;
+  justify-items: center;
+  align-content: flex-end;
+  padding-top: 2px;
+  margin-top: -50px;
+}
+
+/* Manager Inputs */
+.selectInput{
+  border-radius: 0px !important;
+}
+.itemBoxInsert{
+  margin-top: -550px;
+  height: auto;
+  flex: 1;
+  width: 85%;
+}
+.loginBox{
+  margin-top: -750px;
+  height: auto;
+  flex: 1;
+  width: 85%;
+  color: white !important;
+}
+.loginBox>p{
+  color: white !important;
+}
+.mensalBoxInsert{
+  margin-top: 100px;
+  height: auto;
+  flex: 1;
+  width: 85%;
+}
+.boxAdmin{
+  margin-top: 350px;
+}
+.corBox{
+  background-color: #cccccc57;
+}
+.descripton{
+  height: 200px !important;
+  border-radius: 20px !important;
+}
+.itemDetals{
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.itemDesc{
+  width: 80% !important; 
+  align-content: flex-start;
+}
+.inputItem{
+  margin-bottom: 10px;
+}
+.detalsInputs{
+  align-items: flex-start;
+  align-content: flex-start;
+  display: inline-flex;
+  flex-direction: row;
+}
+.imageBox{
+  width: 45%; 
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.inputFile{
+  background-color: transparent !important;
+  width: 85% !important; 
+  height: 90px !important;
+  border-radius: 20px !important;
+  border: 3px dashed silver !important;
+  box-shadow: none !important;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.inputFile:focus{
+  box-shadow: none !important;
+  border: 3px dashed #7f32ee !important;
+}
+.btnBox{
+  width: 100%;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+.btnSend{
+  width: 25%; 
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #9198a0;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #9198a0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btnSend:hover{
+  background-color: white;
+  color: #7f32ee;
+  border: 1px solid #7f32ee;
+}
+
+/* Search Inputs */
+.searchText{
+  width: 80% !important;
+}
+.searchTitle{
+  font-size: 20px;
+  color: #7f32ee;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.iten-list{
+  display: inline-block;
+  height: 200px;
+  width: 18%;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: rgba(133, 86, 204, 0.3);
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+}
+.iten-list-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  margin-bottom: -50px;
+}
+.iten-list:hover{
+  background-color: rgb(133, 86, 204);
+  transform: scale(1.02);
+  box-shadow: rgba(0,0,0,0.3) 10px 10px 20px;
+}
+
+
+.listBox{
+  margin-left: -20px;
+}
+
+.iten-list-content{
+  display: inline-block;
+  width: 150px;
+  height: 230px;
+  color: rgb(136, 136, 136);
+  background-color: rgba(231, 231, 231, 0.6);
+  list-style: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.iten-list-content:hover{
+  transform: scale(1.01);
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.iconContent{
+  width: 100%;
+  height: 55%;
+  border-radius: 20px 20px 0px 0px;
+}
+.txtContent{
+  font-size: 18px;
+  flex: 1;
+  align-items: flex-end;
+  text-align: center;
+}
+.txtContent-title{
+  margin-top: 1px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.txtContentDetls{
+  font-size: 10px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.txtContentDetls-ap{
+  font-size: 25px;
+  margin-top: -17px;
+  font-weight: bold;
+}
+
+.mensage{
+  width: 80%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding: 5px;
+}
+.mensage:focus{
+  border: 1px solid #7f32ee;
+}
+.mensageBtn{
+  width: 81%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #7f32ee;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.4s;
+}
+.mensageBtn:hover{
+  background-color: #5a1daf;
+}
+
+.visitanteInput{
+  width: 13%;
+  height: 30px;
+  margin: 5px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding: 5px;
+}
+.visitanteInput:focus{
+  border: 1px solid #7f32ee;
+}
+.visitanteBtn{
+  width: 11%;
+  height: 40px;
+  margin: 5px;
+  margin-top: 20px;
+  background-color: #7f32ee;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.4s;
+}
+.btnHidden{
+  display: none;
+}
+.visitanteBtn:hover{
+  background-color: #5a1daf;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+
+/* Comentários - Ouvidoria -------------------------------------------------------------------------------*/
+.comments{
+  padding: 10px;
+}
+.comment{
+  background-color: rgba(192, 192, 192, 0.342);
+  color: rgb(85, 85, 85);
+  list-style: none;
+  flex: 1;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 0px 10px 10px 10px;
+  font-size: 15px;
+  text-align: left;
+
+}
+.comment > h1{
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+
+/* Formulários -------------------------------------------------------------------------------*/
+.form{
+  display: block;
+  flex-direction: grid;
+  align-content: flex-start;
+  margin-top: 300px;
+  margin-bottom: -250px;
+}
+
+.formComent{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-content: flex-start;
+  display: inline-block;
+  width: 70%;
+}
+
+
+.inputStyle{
+  border-radius: 10px !important;
+  border: 1px solid silver;
+  padding: 5px;
+  padding-left: 20px;
+  transition: 0.3s;
+  border-radius: 60px;
+  color:silver;
+  background-color: #fff;
+  width: 70%;
+  height: 30px;
+  font-size: 15px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.inputText{
+  color:silver;
+  background-color: #fff;
+  width: 80%;
+  height: 30px;
+}
+.inputSelect{
+  height: 40px;
+}
+.inputSelect:focus{
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+  color: #fff;
+}
+
+.inputBig{
+  width: 92%;
+}
+.inputMid{
+  width: 35%;
+}
+.inputSmall{
+  width: 30%;
+}
+
+.inputText:focus{
+  box-shadow: 5px 8px 8px rgba(0,0,0,0.3);
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  color: #6e6e6e;
+  border: 1px solid #7f32ee;
+}
+
+.inputButton{
+  height: 40px;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.inputButton:hover{
+  transform: scale(1.07);
+  animation: none;
+}
+
+.btnLimpar{
+  background-color: transparent;
+}
+.btnEnviar{
+  background-color: #FF9800;
+  border: none;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Lista de Itens -------------------------------------------------------------------------------*/
+
+.box-Item{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: #7f32ee;
+  width: 90%;
+  padding: 50px;
+  border-radius: 10px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  clear: both;
+  flex: 1;
+  color: #fff;
+}
+.boxItem-text{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /* width: 90%;
+  height: 400px; */
+  padding: 50px;
+  border-radius: 40px;
+  display: block;
+  flex-direction: column;
+}
+
+
+.box-ItemForumAsk{
+  margin-top: 200px;
+  background-color: #9569D5;
+  width: 90%;
+  height: auto;
+  padding: 30px;
+  border-radius: 40px;
+  display: block;
+  flex-direction: column;
+  clear: both;
+}
+.box-ItemForumComent{
+  margin-top: 20px;
+  background-color: #9569D5;
+  width: 90%;
+  height: auto;
+  padding: 30px;
+  border-radius: 40px;
+  display: block;
+  flex-direction: column;
+  clear: both;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Videos ------------------------------------------------------------------------------- */
+
+.headerItem {
+  width: 50%;
+  flex: 1;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  float: left;
+}
+.imgItem{
+  width: 90%;
+  height: 400px;
+  border: none;
+}
+.titleItem{
+  font-size: 45px;
+  color: #7f32ee;
+  margin-top: -100px;
+}
+.titleLocal{
+  margin-top: -70px;
+}
+.txtItem{
+  font-size: 15px;
+  width: 102%;
+  text-align: center;
+}
+.txtBigItem{
+  text-align: justify !important;
+}
+.boxBtns{
+  display: inline-block;
+}
+.btnItem{
+  margin-right: 10px;
+  width: 150px;
+  background-color: rgb(95, 43, 173);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.service{
+  width: 100%;
+  margin-top: -30px;
+  color: #fff;
+  clear: both;
+  text-align: left;
+  justify-items: left;
+  align-items: flex-start;
+  align-content: flex-start;
+  display: inline-flex;
+  flex-direction: row;
+}
+.service2{
+  width: 20%;
+  clear: both;
+  text-align: left;
+  font-size: 15px;
+}
+.service3{
+  width: 35%;
+  height: 300px;
+  margin-left: 50px;
+  background-color: #9e9e9e;
+  border-radius: 20px;
+}
+.titleService{
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Forum itens -------------------------------------------------------------------------------*/
+
+.titleforumItem{
+  float: left;
+  margin-right: -100px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.txtforumItem{
+  font-size: 25px;
+  width: 40%;
+  text-align: justify;
+  margin-right: 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.ComentsBox{
+  width: 500px;
+}
+.inputComent{
+  width: 420px;
+  height: 140px;
+  padding: 18px;
+}
+
+
+/* Caixa de Filtros */
+.boxFilter{
+  display: inline;
+  background:#ff5257;
+  border: dashed white;
+  border-width: 2px 2px 2px 0px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.3); 
+  border-radius: 5px;
+}
+
+.boxFilter-btn{
+  width: 100px;
+  height: 35px;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+  border-left: 2px dashed white;
+}
+
+.boxFilter-btn:focus{
+  background: #c2151a;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Lista-------------------------------------------------------------------------------*/
+.list{
+  border: 2px dashed white;
+  background: #c2151a;
+}
+.listItem{
+  text-align: center;
+  font-size: 15px;
+  width: 870px;
+  height: 50px;
+  list-style: none;
+}
+.firstTxtList{
+  margin-left: 0px;
+  float: left;
+}
+.txtList{
+  float: left;
+  margin-left: 140px; 
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Notas ------------------------------------------------------------------------------------- */
+
+.AreasMateria{
+  width: 140px;
+  height: 105px;
+  background: #9569D5;
+  border: 10px solid white;
+}
+.AreasMateria > h1{
+  margin-top: 30px;
+}
+
+.listaNotas{
+  width: 100%;
+  margin-left: 10px;
+}
+.listaParciais{
+  float: left;
+}
+.listaGlobais{
+  float: right;
+}
+.notaArea{
+  display: inline-block;
+  list-style: none;
+  padding: 28px;
+  width: 45px;
+  margin: 10px;
+  border-radius: 50%;
+  background: #9569D5;
+  font-size: 30px;
+  font-weight: bold;
+}
+.medias{
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  clear: both;
+  position: absolute;
+  top: 320px;
+}
+.medias > li{
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 25px;
+  width: 98px;
+  height: 98px;
+  text-align: center;
+  background: #9569D5;
+  font-size: 20px;
+}
+.medias > li > p{
+  font-size: 15px;
+}
+
+#mediaParcial{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px
+}
+#mediaGlobal{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px
+}
+#mediaTotal{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px
+}
+.materiaName{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+  background: #9569d5;
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+/* Calendário ------------------------------------------------------------------------------- */
+.dateList{
+  flex-direction: column;
+  align-items: center;
+  width: 71.5%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: -200px;
+}
+.date{
+  margin: 10px;
+  float: left;
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+  background: #6e6e6e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.date:hover{
+  transform: scale(1.1)
+}
+.dateDay{
+  margin: 0;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Lista de horários -------------------------------------------------------------------------------*/
+.horaFuncTxt{
+  float: left;
+  margin-left: 60px; 
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Tamanhos -------------------------------------------------------------------------------*/
+.large{
+  width: 250px;
+}
+.medio{
+  width: 152px;
+}
+.menor{
+  width: 80px;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Globais -------------------------------------------------------------------------------*/
+.center{
+  margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Itens Unicos -------------------------------------------------------------------------------*/
+.cod{
+  width: 110px;
+  height: 18px;
+  padding: 5px;
+  color: #fff;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 0.2px dashed rgba(255,255,255,0.6);
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* Rodapé -------------------------------------------------------------------------------*/
+.footerSection{
+  width: 30px;
+  background-color: #7f32ee;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 10%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+}
+.footer-logo{
+  margin-top: -100px;
+  width: 30px;
+  background-color: #7f32ee;
+  height: 100px;
+  width: 100%;
+  margin-bottom: -20px;
+  margin-left: -10px;
+}
+.logoFooter{
+  margin-top: 20px;
+  width: 30px;
+}
+.logoFooter-City{
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+.footerSeparator{
+  margin-top: 50px;
+}
+.footer{
+  background-color: #7f32ee;
+  flex: 1;
+  width: 103%;
+  margin-top: 200px;
+  margin-left: -10px;
+}
+
+/* Mobile  ----------------------------------------------------------------------- */
+
+@media (max-width: 900px){
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .App-header{
+    flex-direction: column;
+    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .App-logo{
+    margin-top: 80px;
+  }
+  .backgroundHero{
+    width: 110%;
+  }
+  .Areas:hover{
+    transform: scale(1);
+    box-shadow: 1px 1px rgba(0,0,0,0.1);
+  }
+  .type1:hover{
+    transform: scale(1);
+    box-shadow: 1px 1px rgba(0,0,0,0.1);
+  }
+  .type4{
+    display: none;
+    font-size: 8px !important;
+  }
+  .type4-1{
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 8px !important;
+    margin-left: -12%;
+  }
+  .type4-2{
+    display: block;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 8px !important;
+  }
+  .type4:hover{
+    font-size: '';
+  }
+  .type2{
+    width: 40%;
+    height: 30%; 
+  }
+  .section{
+    margin-top: 70px;
+    width: 115%;
+  }
+  .titleSection{
+    font-size: 15px;
+    width: 70%;
+    margin-left: -10%;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  .listAreas2{
+    margin:0 auto;
+    margin-left: -15%;
+  }
+  .Grafich{
+    margin-left: -70%;
+  }
+  .barrasSection{
+    width: 2%;
+    font-size: 5px;
+  }
+  .barra{
+    width: 100%;
+  }
+  .visitanteInput{
+    width: 80%;
+    margin-left: -10%;
+  }
+  .visitanteBtn{
+    width: 80%;
+    margin-left: -10%;
+  }
+  #ouvidoria > form{
+    margin-left: -10%;
+  }
+  .btnSend{
+
+    width: 90%;
+  }
+  .footer{
+    width: 112%;
+  }
+}
