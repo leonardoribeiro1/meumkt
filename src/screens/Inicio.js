@@ -26,7 +26,7 @@ import Visitantes from '../components/visitante'
 
   //mudança de páginas
   function inicio(){
-    window.location.href = "/inicio"
+    window.location.href = window.location.href + "inicio"
   }
   
   class Home extends Component{
@@ -43,7 +43,7 @@ import Visitantes from '../components/visitante'
 
    const userType = () => {
       if(this.props.tipo === 'sindico'){
-        window.location.href = "/homeManager"
+        window.location.href = window.location.href + "homeManager"
       }else if(this.props.tipo === ''){
         window.location.href = "/"
       }else{

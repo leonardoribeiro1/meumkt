@@ -72,18 +72,17 @@ import iconAvisos from '../assets/images/ICONES/AVISOS ROXOS.png'
     const avisos = this.state.avisos 
   
     const listAvisos = avisos.map((aviso) => 
-        <li className="Areas type1" key={aviso.id}
+        <a className="Areas type1" key={aviso.id} href="#/item"
         onClick={
           () => {this.setState({id: aviso.id}, () => {
             (this.props.clickButton(this.state))
-            (window.location.href = "/item")
           })}
         }
         >
               <img src={imgAvisos}/>
               <p className='titleCard'> {aviso.aviso} </p>
               <p className='txtCard'> {aviso.description} </p>
-      </li>
+      </a>
     )
   
     return (
@@ -91,30 +90,31 @@ import iconAvisos from '../assets/images/ICONES/AVISOS ROXOS.png'
         <section className="section" id="avisos" >
         <div>
                 <ul className="listAreas">
-                    <a href="#avisos" className="Areas type4 type4-1" >
+                    <a href="#/inicio/#avisos" className="Areas type4 type4-1" >
                         <p>Avisos</p>
                     </a>
-                    <a href="#mensalidade" className="Areas type4">
+                    <a href="#/inicio/#mensalidade" className="Areas type4">
                         <p>Mensalidade</p>
                     </a>
-                    <a href="#eventos" className="Areas type4">
+                    <a href="#/inicio/#eventos" className="Areas type4">
                         <p>Eventos</p>
                     </a>
-                    <a href="#transparencia" className="Areas type4">
+                    <a href="#/inicio/#transparencia" className="Areas type4">
                         <p>Transparência</p>
                     </a>
-                    <a href="#visitantes" className="Areas type4">
+                    <a href="#/inicio/#visitantes" className="Areas type4">
                         <p>Visitantes</p>
                     </a>
-                    <a href="#ouvidoria" className="Areas type4">
+                    <a href="#/inicio/#ouvidoria" className="Areas type4">
                         <p>Ouvidoria</p>
                     </a>
-                    <a href="/" className="Areas type4 type4-2">
+                    <a href="" className="Areas type4 type4-2">
                         <p>Sair</p>
                     </a>
                 </ul>
           </div>
-            <h1 className="titleSection"><img src={iconAvisos} width='50px'/>Mural de Avisos
+            <h1 className="titleSection"><img src={iconAvisos} width='50px'/>
+              Mural de Avisos
             </h1>
             <ul  className="listAreas2">
               {listAvisos}

@@ -23,14 +23,14 @@ function onClickHandler(){
 }
 
 function goHome(){
-  window.location.href = "/listItems"
+  window.location.href = "listItems"
 }
 
 function content(){
-    window.location.href = "/item"
+    window.location.href = "item"
 }
 function goFilter(){
-    window.location.href = "/listItems"
+    window.location.href = "listItems"
 }
 
 

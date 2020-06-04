@@ -7,7 +7,7 @@ import { state, persistor } from "./store";
 
 import {Provider} from 'react-redux'
 import {PersistGate} from 'redux-persist/integration/react'
-import {BrowserRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 
 
 import * as serviceWorker from './serviceWorker';
@@ -19,9 +19,9 @@ ReactDOM.render(
 
 <Provider store={state}>
     <PersistGate persistor={persistor} loading={null} >
-        <BrowserRouter>
+        <HashRouter>
             <App />
-        </BrowserRouter> 
+        </HashRouter> 
     </PersistGate>
 </Provider>
 , document.getElementById('root'));

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/meumkt/static/css/main.5971d584.chunk.css",
+    "main.js": "/meumkt/static/js/main.a3bc2cda.chunk.js",
+    "main.js.map": "/meumkt/static/js/main.a3bc2cda.chunk.js.map",
+    "runtime~main.js": "/meumkt/static/js/runtime~main.c942f27e.js",
+    "runtime~main.js.map": "/meumkt/static/js/runtime~main.c942f27e.js.map",
+    "static/js/2.9147522e.chunk.js": "/meumkt/static/js/2.9147522e.chunk.js",
+    "static/js/2.9147522e.chunk.js.map": "/meumkt/static/js/2.9147522e.chunk.js.map",
+    "index.html": "/meumkt/index.html",
+    "precache-manifest.d2526c4cb70474f49455947c7d3ef8f7.js": "/meumkt/precache-manifest.d2526c4cb70474f49455947c7d3ef8f7.js",
+    "service-worker.js": "/meumkt/service-worker.js",
+    "static/css/main.5971d584.chunk.css.map": "/meumkt/static/css/main.5971d584.chunk.css.map",
+    "static/media/AVISO.png": "/meumkt/static/media/AVISO.d3d01568.png",
+    "static/media/BANNER.png": "/meumkt/static/media/BANNER.cb71b9ca.png",
+    "static/media/LOGO-MEUHALL-SF.png": "/meumkt/static/media/LOGO-MEUHALL-SF.db065454.png",
+    "static/media/MENSALIDADE.png": "/meumkt/static/media/MENSALIDADE.52535695.png",
+    "static/media/VISITANTES.png": "/meumkt/static/media/VISITANTES.a711bd32.png",
+    "static/media/aluno.png": "/meumkt/static/media/aluno.27d5a347.png",
+    "static/media/bg102.jpg": "/meumkt/static/media/bg102.d62fe09c.jpg",
+    "static/media/bg105.jpg": "/meumkt/static/media/bg105.bfbe8bf6.jpg",
+    "static/media/bg106.jpg": "/meumkt/static/media/bg106.e4ce5ef9.jpg",
+    "static/media/bg107.jpg": "/meumkt/static/media/bg107.b2c0ec42.jpg",
+    "static/media/bg112.jpg": "/meumkt/static/media/bg112.e81445de.jpg",
+    "static/media/cliente.jpg": "/meumkt/static/media/cliente.9e2ac66f.jpg",
+    "static/media/logo.png": "/meumkt/static/media/logo.4fe042ee.png",
+    "static/media/logo12.png": "/meumkt/static/media/logo12.73038630.png",
+    "static/media/logo2.png": "/meumkt/static/media/logo2.fc285ad4.png",
+    "static/media/school.png": "/meumkt/static/media/school.3b175c9c.png"
+  }
+}

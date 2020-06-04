@@ -69,7 +69,7 @@ import iconMensalidade from '../assets/images/ICONES/MENSALIDADE BRANCO.png'
             <li className="Areas type2"  onClick={
               () => this.setState({id: mensalidade.id}, () => {
                 (this.props.clickButton(this.state))
-                (window.location.href = "/item")
+                (window.location.href = "item")
               })
             }>
                     <img src={imgMensalidade} />

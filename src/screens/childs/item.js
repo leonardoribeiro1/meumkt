@@ -22,7 +22,7 @@ function onClickHandler(){
 }
 
 function goFilter(){
-    window.location.href = "/listItems"
+    window.location.href = "listItems"
   }
 
   const MyMapComponent = withScriptjs(withGoogleMap((props) =>

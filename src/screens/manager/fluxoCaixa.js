@@ -12,16 +12,16 @@ import '../../App.css'
 
 //Icones
 function goHome(){
-  window.location.href = "/homeManager"
+  window.location.href = "homeManager"
 }
 function goDashboard(){
-    window.location.href = "/dashboard"
+    window.location.href = "dashboard"
   }
 function goCadastroMorador(){
-    window.location.href = "/cadastroMorador"
+    window.location.href = "cadastroMorador"
 }
 function goPainelFinanceiro(){
-    window.location.href = "/painelFinanceiro"
+    window.location.href = "painelFinanceiro"
 }
 
 

@@ -19,13 +19,13 @@ import iconVisitantes from '../assets/images/ICONES/VISITANTE ROXO.png'
 
   //mudança de páginas
   function list(){
-    window.location.href = "/listItems"
+    window.location.href = "listItems"
   }
   function inicio(){
-    window.location.href = "/inicio"
+    window.location.href = "inicio"
   }
   function itemClick(){
-    window.location.href = "/item"
+    window.location.href = "item"
     console.log(this.state.id)
   }
 

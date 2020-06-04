@@ -37,17 +37,17 @@ import iconOuvidoria from '../../assets/images/ICONES/OUVIDORIA ROXO.png'
 
   //mudança de páginas
   function list(){
-    window.location.href = "/listItems"
+    window.location.href = "listItems"
   }
   function inicio(){
-    window.location.href = "/homeManager"
+    window.location.href = "homeManager"
   }
   function itemClick(){
-    window.location.href = "/item"
+    window.location.href = "item"
   }
 
   function goFilter(){
-    window.location.href = "/listItems"
+    window.location.href = "listItems"
   }
   class Home extends Component{
     constructor(props){

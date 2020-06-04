@@ -65,7 +65,7 @@ class Login extends Component{
                       alert('digite sua senha')
                     }else{
                       this.props.LoggedIn(this.state)
-                      window.location.href = "/inicio"
+                      window.location.href = window.location.href + "inicio"
                     }
                   }
                   )

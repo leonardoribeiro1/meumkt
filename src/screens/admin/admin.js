@@ -10,13 +10,13 @@ import '../../App.css'
 
 //Icones
 function goHome(){
-  window.location.href = "/homeManager"
+  window.location.href = "homeManager"
 }
 function goDashboard(){
-    window.location.href = "/dashboard"
+    window.location.href = "dashboard"
 }
 function goPainelFinanceiro(){
-    window.location.href = "/painelFinanceiro"
+    window.location.href = "painelFinanceiro"
   }
 
 class Dashboard extends Component{
